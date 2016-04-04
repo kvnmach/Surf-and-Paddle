@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+body {
+  font-family: Ubuntu;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: url('http://pichdwallpaper.com/wp-content/uploads/2014/12/surfing_in_teahupoo_tahiti.jpg');
+  height: 600px;
+  
+}
+
+.maintitle {
+  padding: 50px 30px 50px 80px;
+  float: center;
+  color: #FFFFFF;
+}
+
+.top {
+  padding-top: 5px;
+}
+
+
+.firststatement {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+}
+
+
+
+h3.main {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+}
+
+ a.hovertext {
+    position: relative;
+    width: 50px;
+    text-decoration: none !important;
+    text-align: center;
+  }
+  a.hovertext:after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0.5em 20px;
+    width: 320px;
+    background: rgba(0,0,0,0.8);
+    text-decoration: none !important;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+  }
+  a.hovertext:hover:after, a.hovertext:focus:after {
+    opacity: 1.0;
+  }
+
+footer {
+  background-color: #1277C2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.copyright {
+  font-size: 10px;
+  color: #A9A9A9;
+}
